@@ -13,3 +13,4 @@ int main() { int value;
 cout<<"Enter your number : "; cin>>value;
 factorial fact(value); return 0;
 }
+
