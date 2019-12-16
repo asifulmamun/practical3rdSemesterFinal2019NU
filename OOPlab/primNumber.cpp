@@ -15,7 +15,7 @@ class primNumber{
         else if(num == 1){
             cout << "1 is not prime number.";
         }
-
+        
         for(i=2; i<num; i++){
             if(num%i == 0){
                 isPrime = 0;
@@ -28,12 +28,9 @@ class primNumber{
         }
         else{
             cout << num << " is not prime number.";
-        }  
+        }
     }
 };
-
-
-
 
 int main(){ 
     int num;
@@ -41,7 +38,6 @@ int main(){
     cin >> num;
 
     checkPrime (num);
-
 
 return 0;
 }
