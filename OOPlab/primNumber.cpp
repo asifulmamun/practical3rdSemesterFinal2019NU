@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
     int isPrime = 1;
 
     int num,i;
@@ -17,7 +16,6 @@ int main()
     else if(num == 1){
         cout << "1 is not prime number.";
     }
-
 
     for(i=2; i<num; i++){
         if(num%i == 0){
@@ -33,5 +31,5 @@ int main()
         cout << num << " is not prime number.";
     }
 
-    return 0;
+return 0;
 }
