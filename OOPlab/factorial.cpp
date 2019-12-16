@@ -7,9 +7,9 @@ class factorial {
         int f;
 
     factorial (int n) {
-
+        f = 1; // declace initial
         cout << "The factorial of " << n << " is : ";
-
+        
         for (int i = n; i>0; i--) {
 
             // total of factorial assign
